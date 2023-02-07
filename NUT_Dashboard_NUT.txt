@@ -1,177 +1,78 @@
 {
   "indicators": [
     {
-      "name": "CSB CPN précoce",
+      "name": "Dépistage malnutrition aigue MAM/MAS",
       "type": "indicator",
-      "dhisID": "g2NF4Z3cbj3",
-      "dhisName": "CSB MSR Taux de CPN précoce <4mois",
+      "dhisID": "G9gQpY0zhN6",
+      "dhisName": "COM Taux de dépistage malnutrition aigue MAM et MAS",
       "groupCode": "G1"
     },
     {
-      "name": "CSB CPN1",
+      "name": "Admission en CRENAM",
       "type": "indicator",
-      "dhisID": "vseXEsxYqEN",
-      "dhisName": "CSB MSR Taux de couverture en CPN1",
+      "dhisID": "tinjGyBZ8Ob",
+      "dhisName": "COM NUT Nombre d'admission en CRENAM",
       "groupCode": "G1"
     },
     {
-      "name": "CHRD CPN1",
+      "name": "Taux de guérison CRENAS",
       "type": "indicator",
-      "dhisID": "TAtqlBAAMQX",
-      "dhisName": "CHRD Proportion Femmes enceintes vues en 1ère CPN",
+      "dhisID": "BZFDMu4BrOP",
+      "dhisName": "CSB NUT Taux de guérison CRENAS",
       "groupCode": "G1"
     },
     {
-      "name": "CSB CPN4+",
+      "name": "Taux d’abandon CRENAS",
       "type": "indicator",
-      "dhisID": "TuU9jZHMAXr",
-      "dhisName": "CSB MSR Taux de couverture en CPN4 et Plus",
+      "dhisID": "dDBZZ3JFSvT",
+      "dhisName": "CSB NUT Taux d’abandon CRENAS",
       "groupCode": "G1"
     },
     {
-      "name": "CHRD CPN4+",
+      "name": "Supplémentation en Vit A 6-59mois ",
       "type": "indicator",
-      "dhisID": "SBgRM6P8WE8",
-      "dhisName": "CHRD Proportion Femmes enceintes ayant effectué 4 CPN et plus ",
-      "groupCode": "G1"
-    },
-    {
-      "name": "CSB accouchement ",
-      "type": "indicator",
-      "dhisID": "rZ284PLILin",
-      "dhisName": "CSB MSR Taux d'accouchement Total FS",
+      "dhisID": "hI9Z8gmyXkp",
+      "dhisName": "CSB NUT Taux de couverture en supplémentation en Vit A chez les enfants 6-59mois ",
       "groupCode": "G2"
     },
     {
-      "name": "CHRD accouchement",
+      "name": "Taux de Disponibilite Vit A",
       "type": "indicator",
-      "dhisID": "VPkbQLAolwg",
-      "dhisName": "CHRD Taux d’utilisation des accouchements à la Maternité",
-      "groupCode": "G2"
-    },
-    {
-      "name": "CSB N-né < 2500g",
-      "type": "indicator",
-      "dhisID": "nHdWxA7cFvB",
-      "dhisName": "CSB MSR Proportion de nouveau-nés < 2500g",
-      "groupCode": "G2"
-    },
-    {
-      "name": "CHRD OC",
-      "type": "indicator",
-      "dhisID": "UO1ZZjdOXEk",
-      "dhisName": "CHRD Taux des Opérations Cesariennes au niveau hôpitaux",
-      "groupCode": "G2"
-    },
-    {
-      "name": "CSB Avortement",
-      "type": "indicator",
-      "dhisID": "EVNMRpf4gLB",
-      "dhisName": "CSB Proportion d'avortement ",
-      "groupCode": "G2"
-    },
-    {
-      "name": "CSB complication accouchement",
-      "type": "indicator",
-      "dhisID": "mORrsXxs7Qx",
-      "dhisName": "CSB MSR Proportion de complication accouchement": "G2"
-    },
-    {
-      "name": "COM # accouchement  à domicile",
-      "type": "indicator",
-      "dhisID": "Suffndxj7da",
-      "dhisName": "RMA_COM Nombre d' Accouchement  à domicile": "G2"
-    },
-    {
-      "name": "CSB CPoN 3 à 14 jours",
-      "type": "indicator",CSB MSR Proportion de complication accouchement
-      "dhisID": "OoAuAjNMCkj",
-      "dhisName": "CSB MSR Taux de couverture en Consultation Post Natale dans les 3 à 14 jours",
+      "dhisID": "BT65wHgqPXb",
+      "dhisName": "CSB Intrant Gratuit Nut Taux de Disponibilite Vitamine A",
       "groupCode": "G3"
     },
     {
-      "name": "CSB décès maternel",
+      "name": "Taux de Disponibilite Albendazole 400mg",
       "type": "indicator",
-      "dhisID": "zdVeI0RoIOj",
-      "dhisName": "CSB MSR Proportion de décès maternel",
-      "groupCode": "G4"
+      "dhisID": "KjKhDNLbu30",
+      "dhisName": "CSB Intrant Gratuit Nut Taux de Disponibilite Albendazole 400mg",
+      "groupCode": "G3"
     },
     {
-      "name": "CHRD décès maternel",
-      "type": "dataelement",
-      "dhisID": "nDkpPgtPi2v",
-      "dhisName": "CHRD Proportion des décès maternels ",
-      "groupCode": "G4"
-    },
-    {
-      "name": "CSB décès néonatal",
-      "type": "dataelement",
-      "dhisID": "FJ1BRlLGlj8",
-      "dhisName": "CSB MSR Proportion de décès néonatal (0-28j)",
-      "groupCode": "G4"
-    },
-    {
-      "name": "CHRD décès néonatal",
-      "type": "dataelement",
-      "dhisID": "t3IQ7q7xYwK",
-      "dhisName": "CHRD Proportion des décès néonataux 0-28 j",
-      "groupCode": "G4"
-    },
-    {
-      "name": "CSB  Oxytocine",
-      "type": "dataelement",
-      "dhisID": "IU2c0DA5SI0",
-      "dhisName": "CSB Intrant Gratuit MSR Taux de Disponibilite Oxytocine injectable",
-      "groupCode": "G5"
-    },
-    {
-      "name": "CHRD  Oxytocine",
+      "name": "Taux de Disponibilite Plumpynut",
       "type": "indicator",
-      "dhisID": "BC3uVoGxh1z",
-      "dhisName": "CHRD Taux de disponibilite en Oxytocine",
-      "groupCode": "G5"
-    },
-    {
-      "name": "CSB Chlorhexidine",
-      "type": "indicator",
-      "dhisID": "zseDQ6A8Q6m",
-      "dhisName": "CSB Intrant Gratuit MSR Taux de Disponibilite en Chlorhexidine",
-      "groupCode": "G5"
-    },
-    {
-      "name": "COM Chlorhexidine",
-      "type": "indicator",
-      "dhisID": "o18JraLOxf9",
-      "dhisName": "COM Taux de disponibilité en Chlorhexidine ",
-      "groupCode": "G5"
-    },
+      "dhisID": "Mw5NmZblr3B",
+      "dhisName": "Taux de disponibilité en CSB Intrant Gratuit Nut Taux de Disponibilite Plumpynut",
+      "groupCode": "G3"
+    }, 
     }
   ],
   "indicatorGroup": [
     {
       "code": "G1",
-      "name": "CPN",
-      "titre": "Taux de CPN au niveau FS"
+      "name": "Prise en charge",
+      "titre": "MAS ET MAM"
     },
     {
       "code": "G2",
-      "name": "Accouchement",
-      "titre": "Taux d'accouchement au niveau FS"
+      "name": "Supplémentation",
+      "titre": "Couverture en Vit A chez les enfants 6-59mois "
     },
     {
       "code": "G3",
-      "name": "CPoN 3",
-      "titre": "Taux de CPoN"
+      "name": "Logistique",
+      "titre": "Taux de Disponibilite en intrant"
     },
     {
-      "code": "G4",
-      "name": "Décès",
-      "titre": "Décès maternel et néonatal au niveau FS"
-    },
-    {
-      "code": "G5",
-      "name": "Intrants",
-      "titre": "Taux disponibilité des Intrants de santé au niveau FS"
-    },
-    
-    }
+      
